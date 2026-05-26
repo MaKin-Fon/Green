@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #0c243c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e94d40;
+}
+
+.banner-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+
+.logo-area {
+    display: flex;
+    align-items: baseline;
+    gap: 0.1rem;
+    background-color: #ffffff;
+    padding: 0.5rem 0.75rem;
+}
+
+.logo-area img {
+    height: 80px;
+    width: auto;
+}
+
+.site-title {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0c243c;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    padding: 0.4rem rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    border-color: #e94d40;
+    background-color: #e94d40;
+    color: #ffffff;
+}
+
+.nav-links .active {
+    background-color: #0c243c;
+    color: #ffffff;
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 1.5rem auto 2.5rem;
+    padding: 0 1rem;
+}
+
+h1 {
+    color: #0c243c;
+    margin: 0;
+}
+
+h2,
+h3,
+h4 {
+    color: #e94078;
+    max-width: 1200px;
+    margin: 1.5rem auto 0%;
+    padding: 0 1rem;
+}
+
+footer {
+    background-color: #0c243c;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/*...............................WELCOM TO SPECIAL CAKES........................*/
+
+.content-grid {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100;
+}
+
+.contact-details p {
+    margin: 0.15rem 0;
+}
+
+.address-content {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top: 30px;
+}
+
+.hours-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hours-list li {
+    margin-bottom: 50rem;
+}
+
+.text-small {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+/* .................................. ABOUT.................................. */
+.section-area {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: #f9f9f9;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: rgb(3, 77, 52);
+}
+
+th,
+td {
+    border: 1px solid #555;
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(228, 200, 166);
+    color: #3d1ed6;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #bac9d6;
+    color: #070707;
+}
+
+/* ..................................CONTACT US..............................*/
+
+form {
+    background-color: rgb(144, 172, 199);
+    padding: 3rem;
+    border-radius: 3%;
+    box-shadow: 0 20px 60px #5e83a5;
+    max-width: 550px;
+}
+
+form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 10rem;
+}
+
+form legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #e94d40;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="cakes"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.25rem;
+    border: 1px solid #565461;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+input[type="submit"], 
+botton[type="sunmit"] {
+    display: inline-block;
+    padding: 0.3rem 1.2rem;
+    border-radius: 999px;
+    border: none;
+    background-color: #556694;
+    color: #0c243c;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.9rem;
+}
+
+input[type="submit"]:hover, 
+input[type="submit"]:focus, 
+input[type="submit"]:hover, 
+input[type="submit"]:focus {
+    background-color: #a10404;
+}
+
+/*.........................................Cakes for sales......................................*/
+
+.lead {
+    font-size: 1.05rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-card {
+    background-color: #dbdbc8;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 6 px rgba(red, green, blue, 0.08);
+    padding: 1rem;
+}
+
+.product-card h3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.29;
+}
+
+.product-card p {
+    margin: 0;
+}
